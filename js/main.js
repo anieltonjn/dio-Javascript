@@ -1,8 +1,41 @@
 
+
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigado por Clicar</b>";
+    //alert("Obrigado por clicar");
+}
+
+function redirecionar(){
+    window.open("http://ead.progep.ufpb.br/");
+    //window.location.href = "http://ead.progep.ufpb.br/login/index.php";
+}
+
+function trocar(elemento){
+    elemento.innerHTML = "Obrigado por passar o Mouse";
+    //document.getElementById("mousemove").innerHTML = "Obrigado por passar o Mouse";
+    //alert("Trocar texto");
+}
+
+function voltar(elemento){
+    elemento.innerHTML = "Passe o mouse aqui";
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+}
+
+function load(){
+    alert("Página Carregada");
+}
+
+function funcaoChange(elemento){
+    console.log(elemento.value);
+}
+
+
+/*
 function soma(n1, n2){
     return n1 + n2;
 }
-
+*/
+/*
 var validar;
 function validaIdade(idade){
     validar;
@@ -19,7 +52,7 @@ validaIdade(idade);
 console.log(validar);
 
 //alert(soma(5, 10));
-
+*/
 
 /*
 var d = new Date();
